@@ -1,14 +1,11 @@
 # Painter
 
 
----
 
-## Flix
-
-### User Stories
+## User Stories
 
 
-#### REQUIRED (100 pts)
+### REQUIRED (100 pts)
 - [ ] (20 pts) App can take a picture and show it in the second activity 
 - [ ] (20 pts) App enables multi-touch drawing, with the selected color
 - [ ] (15 pts) App supports adding different icons by double-tapping and long-pressing gesture
@@ -24,14 +21,14 @@
 - [ ] (5 pts) Undo both line-drawing and icon-addin
 - [ ] (5 pts) Pencil sound
 
-### App Walkthough GIF
+## App Walkthough GIF
 
 
 <img src="YOUR_GIF_URL_HERE" width=250><br>
 
-### Notes
+## Notes
 
 
-### Open-source libraries used
+## Open-source libraries used
 
 
