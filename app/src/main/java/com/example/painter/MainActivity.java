@@ -41,7 +41,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (requestCode == REQUEST_IMAGE && resultCode == RESULT_OK) {
             Bundle extras = data.getExtras();
             Bitmap thumbnail = (Bitmap) extras.get("data");
-
+            Intent paintIntent = new Intent(this, PaintingActivity.class);
+            paintIntent.putExtra("data", thumbnail);
+            startActivity(paintIntent);
         }
     }
 
